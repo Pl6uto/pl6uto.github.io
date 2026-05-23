@@ -1,97 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kevin Bivens Bio Page</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #222;
-    }
-
-    .banner {
-      width: 100%;
-      height: 350px;
-      object-fit: cover;
-      display: block;
-    }
-
-    main {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 25px;
-    }
-
-    section {
-      background-color: white;
-      padding: 25px;
-      margin: 25px 0;
-      border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-    }
-
-    h1 {
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-
-    .pill-nav {
-      text-align: center;
-      margin: 25px 0;
-    }
-
-    .pill-nav a {
-      display: inline-block;
-      background-color: #981b48;
-      color: white;
-      padding: 10px 20px;
-      margin: 6px;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .pill-nav a:hover {
-      background-color: #6f1233;
-    }
-
-    .links a {
-      display: inline-block;
-      margin: 8px 15px 8px 0;
-      color: #981b48;
-      font-weight: bold;
-    }
-
-    .contact a {
-      color: #981b48;
-      font-weight: bold;
-    }
-  </style>
-</head>
-
 <body>
+
   <header>
     <img src="images/banner.jpg" alt="Antelope Valley College banner" class="banner">
   </header>
 
-<main>
-  <section id="about">
-    <h1>Kevin Bivens</h1>
-    <p>
-      Hi, my name is Kevin Bivens. I am a computer science student interested in technology, creativity, and building a future career in software engineering.
-      I enjoy learning new skills, working with computers, and creating projects that help me improve as a student.
-    </p>
-  </section>
+  <main>
+    <section id="about">
+      <h1>Kevin Bivens</h1>
+      <p>
+        Hi, my name is Kevin Bivens. I am a computer science student interested in technology, creativity, and building a future career in software engineering.
+        I enjoy learning new skills, working with computers, and creating projects that help me improve as a student.
+      </p>
+    </section>
 
-  <nav class="pill-nav">
-    <a href="#about">About Me</a>
-    <a href="#links">My Links</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</main>
+    <nav class="pill-nav">
+      <a href="#about">About Me</a>
+      <a href="#links">My Links</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="links" class="links">
+      <h2>My Links</h2>
+
+      <a href="https://github.com/pl6uto" target="_blank">GitHub</a>
+      <a href="https://www.twitch.tv/" target="_blank">Twitch</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p>
+        You can email me here:
+        <a href="mailto:kbivens@students.avc.edu">kbivens@students.avc.edu</a>
+      </p>
+    </section>
+  </main>
+
 </body>
-</html>
